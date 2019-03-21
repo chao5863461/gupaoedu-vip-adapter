@@ -1,0 +1,14 @@
+可以直接将模板类直接作为对象，传到其他的类中
+
+public abstract class template{}
+public class method(){
+    private template template;
+
+    public methid(template t){
+        this.template = t;
+    }
+
+    public void templateMethod(){
+        template.memplateMethod();
+    }
+}
